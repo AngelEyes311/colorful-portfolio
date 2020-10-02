@@ -444,7 +444,8 @@ button:hover {
 
 
 footer h1 {
-    color: var(--color2p);
+    color: var(--color1g);
+    font-family: 'Sacramento', cursive;
 }
 
 
@@ -455,17 +456,20 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: var(--color3p);
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--color4b);
+    color: var(--color1g);
 }
 
 .dott-feet {
-    border-bottom: dotted var(--color4b) 10px;
+    border-bottom: dotted var(--color1g) 10px;
 }
 
 
 
+.pic {
+    font-size: 10px;
+}
